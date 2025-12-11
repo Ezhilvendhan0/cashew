@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yuvaraj Cashews | Premium Farm-Direct Nuts</title>
+    <meta name="description" content="Premium farm-fresh cashews direct from the source. B2B bulk supply and B2C gourmet retail." />
+    
+    <!-- PWA Manifest Placeholder -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#166534" />
+
+    <!-- Fonts: Playfair Display (Luxury/Brand) & Lato (Body/Readability) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                50: '#fcfcf9',
+                100: '#f4f2e9',
+                200: '#e6dfcc', // Cashew Cream
+                300: '#d2c4a0',
+                400: '#bba276', // Roasted Gold
+                500: '#a68553',
+                600: '#8c6b43',
+                700: '#705338',
+                800: '#5e4632', // Shell Brown
+                900: '#4d3a2a',
+              },
+              nature: {
+                500: '#2d6a4f', // Leaf Green
+                900: '#0f3a26', // Deep Forest
+              }
+            },
+            fontFamily: {
+              serif: ['"Playfair Display"', 'serif'],
+              sans: ['"Lato"', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      /* Hide scrollbar for seamless horizontal scrolling */
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.556.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.26"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-brand-50 text-brand-900">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
